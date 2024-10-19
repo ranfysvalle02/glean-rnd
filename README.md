@@ -70,10 +70,6 @@ Citations:
 [2] https://developers.glean.com/indexing/overview/
 [3] https://www.glean.com/product/overview
 [4] https://www.datastax.com/blog/glean-datastax-partner-to-help-developers-harness-enterprise-search
-[5] https://developers.glean.com/docs/getting_started/
-[6] https://www.alpha-sense.com/compare/alphasense-vs-glean/
-[7] https://developers.glean.com/docs/actions/example_actions/
-[8] https://glean.co/faculty
 
 **Conclusion**
 
