@@ -9,8 +9,6 @@ As organizations expand, managing and retrieving information from diverse data s
 
 **Enterprise Search: A Brief Overview**
 
-![](https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/63ff7093351e4bdd22d84fd9_tab-1.png)
-
 Enterprise search goes beyond traditional keyword-based search by incorporating advanced techniques such as natural language processing, semantic search, and machine learning. This enables search engines to understand the context and meaning of queries, delivering more accurate and relevant results.
 
 **Glean: A Compound AI System**
@@ -32,6 +30,8 @@ Glean is a compound AI system, combining multiple AI techniques to achieve its p
 5. **Strong Security and Compliance:** Glean prioritizes data security and compliance with industry regulations.
 
 **Benefits of Glean**
+
+![](https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/63ff70e0083fc018331f6ddb_Tab-2.webp)
 
 * **Improved Productivity:** By quickly and easily finding the information they need, employees can be more productive.
 * **Enhanced Decision-Making:** Access to relevant information empowers employees to make informed decisions.
