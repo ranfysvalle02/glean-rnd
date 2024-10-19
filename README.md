@@ -101,3 +101,132 @@ Citations:
 **Conclusion**
 
 Glean is a powerful enterprise search solution that can help businesses improve productivity, enhance decision-making, and drive innovation. Its advanced AI capabilities and seamless integration make it a valuable asset for organizations of all sizes.
+
+**APPENDIX**
+
+### 1. Chat Operation
+**Request:**
+```json
+{
+  "messages": [
+    {
+      "author": "USER",
+      "fragments": [
+        {
+          "text": "What are the holidays this year?"
+        }
+      ]
+    }
+  ],
+  "saveChat": true,
+  "stream": false
+}
+```
+
+**Sample Response:**
+```json
+{
+  "messages": [
+    {
+      "author": "GLEAN_AI",
+      "messageType": "CONTENT",
+      "fragments": [
+        {
+          "text": "The upcoming holidays this year are New Year's Day, Independence Day, and Thanksgiving."
+        }
+      ]
+    }
+  ],
+  "chatSessionTrackingToken": "abc123xyz"
+}
+```
+
+### 2. Ask Operation
+**Request:**
+```json
+{
+  "query": {
+    "text": "What is the company's policy on remote work?",
+    "type": "information-seeking"
+  },
+  "detectOnly": false,
+  "backend": "default"
+}
+```
+
+**Sample Response:**
+```json
+{
+  "answer": {
+    "text": "The company's policy allows for flexible remote work options depending on the department.",
+    "documents": [
+      {
+        "id": "doc123",
+        "title": "Remote Work Policy",
+        "url": "/policies/remote-work"
+      }
+    ]
+  }
+}
+```
+
+### 3. Summarize Operation
+**Request:**
+```json
+{
+  "documents": [
+    {
+      "id": "doc456",
+      "type": "company_policy"
+    }
+  ],
+  "preferredSummaryLength": 300,
+  "query": null
+}
+```
+
+**Sample Response:**
+```json
+{
+  "summary": {
+    "text": "This document outlines the company's policies regarding employee conduct, including attendance, dress code, and workplace behavior.",
+    "length": 300
+  }
+}
+```
+
+### 4. Search Operation
+**Request:**
+```json
+{
+  "query": {
+    "text": "latest company news",
+    "filters": {
+      "dateRange": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-10-19"
+      }
+    }
+  },
+  "limit": 5
+}
+```
+
+**Sample Response:**
+```json
+{
+  "results": [
+    {
+      "title": "Company Achieves Record Sales",
+      "url": "/news/record-sales",
+      "datePublished": "2024-10-01"
+    },
+    {
+      "title": "New Product Launch Announced",
+      "url": "/news/product-launch",
+      "datePublished": "2024-09-15"
+    }
+  ],
+  "totalResultsCount": 2
+}
+```
