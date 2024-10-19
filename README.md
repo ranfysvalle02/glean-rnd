@@ -7,12 +7,6 @@
 #### Overview
 As organizations expand, managing and retrieving information from diverse data sources becomes increasingly challenging. Glean offers a robust solution for enterprise search and knowledge discovery, leveraging advanced technologies to provide precise, permissions-aware, and personalized results.
 
-## **Glean: Revolutionizing Enterprise Search with AI**
-
-**Introduction**
-
-In today's data-driven world, efficient information retrieval is essential for businesses to thrive. Enterprise search, a specialized field of information retrieval, focuses on providing users with relevant information from within an organization's vast repositories of data. Glean, a leading enterprise search platform, offers a comprehensive solution that sets it apart from other options.
-
 **Enterprise Search: A Brief Overview**
 
 Enterprise search goes beyond traditional keyword-based search by incorporating advanced techniques such as natural language processing, semantic search, and machine learning. This enables search engines to understand the context and meaning of queries, delivering more accurate and relevant results.
@@ -51,7 +45,7 @@ Glean enables users to search across all company applications, websites, and dat
 Utilizing deep learning-based large language models (LLMs), Glean provides semantic understanding for natural language queries. This capability allows users to input queries in a conversational manner, making it easier to retrieve contextually relevant information[3].
 
 ## Personalized Recommendations
-Glean incorporates a recommendation engine that surfaces timely and contextually relevant information based on user behavior and interactions. By leveraging vector embeddings trained using AI technologies, Glean can suggest documents and knowledge that are particularly pertinent to individual users[1][3].
+Glean incorporates a recommendation engine that surfaces timely and contextually relevant information based on user behavior and interactions. By leveraging vector embeddings trained using AI technologies, Glean can suggest documents and knowledge that are particularly pertinent to individual users or systems[1][3].
 
 ## API Integration
 The Glean Indexing API allows organizations to index arbitrary content, including internal tools and custom entities. This flexibility means that even data from applications not natively supported by Glean can be made searchable, enhancing the breadth of insights available[2][5].
