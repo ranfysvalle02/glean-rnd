@@ -1,4 +1,4 @@
-# glean-rnd
+# glean-rnd | [SECURITY](https://www.glean.com/security)
 
 ![](https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/66dc805e4b3dc0086bbd80df_glean-product-overview.png)
 
