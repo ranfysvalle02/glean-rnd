@@ -7,6 +7,35 @@
 #### Overview
 As organizations expand, managing and retrieving information from diverse data sources becomes increasingly challenging. Glean offers a robust solution for enterprise search and knowledge discovery, leveraging advanced technologies to provide precise, permissions-aware, and personalized results.
 
+## Glean API (honorable mention -- pretty interesting, and "tricky" to replicate at scale)
+
+**[1. Summarize (Summarize documents)](https://developers.glean.com/client/operation/summarize/):**
+
+* Generates concise summaries of documents provided by URLs.
+* Allows customization of preferred summary length. 
+* Ideal for quickly grasping the key points of various documents.
+
+**2. [Chat (Chat with Glean AI)](https://developers.glean.com/client/operation/chat/):**
+
+* Enables interactive communication with Glean's AI.
+* Users can ask questions and receive informative responses.
+* Offers the option to save conversation history for future reference.
+* Useful for scenarios where users need to engage in a dialogue-like manner with the system.
+
+**3. [Ask (Classify a query and generate an AI answer):](https://developers.glean.com/client/operation/ask/)**
+
+* Analyzes user queries and categorizes them appropriately.
+* Generates informative answers based on the classified query type.
+* May also return relevant documents alongside the answer.
+* Well-suited for situations where users have specific questions and need a direct response. 
+
+**4. [Search (Search for documents based on a query)](https://developers.glean.com/client/operation/search/):**
+
+* Executes document searches based on keywords or phrases entered by the user.
+* Returns a list of matching documents. 
+* Can be further refined using filters, facets, and sorting options (available in the full Glean API documentation).
+* Valuable for finding specific information within a large document corpus.
+
 **Enterprise Search: A Brief Overview**
 
 Enterprise search goes beyond traditional keyword-based search by incorporating advanced techniques such as natural language processing, semantic search, and machine learning. This enables search engines to understand the context and meaning of queries, delivering more accurate and relevant results.
