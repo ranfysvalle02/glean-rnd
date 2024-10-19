@@ -9,6 +9,8 @@ As organizations expand, managing and retrieving information from diverse data s
 
 **Enterprise Search: A Brief Overview**
 
+![](https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/63ff7093351e4bdd22d84fd9_tab-1.png)
+
 Enterprise search goes beyond traditional keyword-based search by incorporating advanced techniques such as natural language processing, semantic search, and machine learning. This enables search engines to understand the context and meaning of queries, delivering more accurate and relevant results.
 
 **Glean: A Compound AI System**
