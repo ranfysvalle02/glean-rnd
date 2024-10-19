@@ -1,6 +1,8 @@
 # glean-rnd
 
-### Report on Glean: Optimizing Enterprise Search and Knowledge Discovery
+![](https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/66dc805e4b3dc0086bbd80df_glean-product-overview.png)
+
+### Optimizing Enterprise Search and Knowledge Discovery
 
 #### Overview
 As organizations expand, managing and retrieving information from diverse data sources becomes increasingly challenging. Glean offers a robust solution for enterprise search and knowledge discovery, leveraging advanced technologies to provide precise, permissions-aware, and personalized results.
